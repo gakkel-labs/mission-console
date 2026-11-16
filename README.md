@@ -1,17 +1,19 @@
 # Gakkel — Mission Console
 
-Poste opérateur web de [Gakkel](https://github.com/gakkel-labs/swarm-simulator), le simulateur d'essaims de drones sous-marins.
+> Version française : [`README.fr.md`](README.fr.md)
 
-L'opérateur y prépare une mission sur une carte marine S-57 (zone, type de mission, type de recherche, météo GO / NO-GO), reçoit les flottes recommandées par le serveur, les modifie et relance une simulation, puis suit la mission en cours (état, avancement, drones, alertes, commandes).
+Web operator console for [Gakkel](https://github.com/gakkel-labs/swarm-simulator), the underwater drone swarm simulator.
 
-Le calcul et les simulations restent dans le serveur Java ([swarm-simulator](https://github.com/gakkel-labs/swarm-simulator)). Unity reste l'affichage 3D.
+The operator prepares a mission on an S-57 nautical chart (area, mission type, search pattern, GO / NO-GO weather check), receives the fleets recommended by the server, edits them and reruns a simulation, then follows the running mission (state, progress, drones, alerts, commands).
 
-**État : en préparation.** Le travail démarre à l'étape 4 de la roadmap (avril 2027) : voir les [jalons](../../milestones).
+Computation and simulations stay in the Java server ([swarm-simulator](https://github.com/gakkel-labs/swarm-simulator)). Unity stays the 3D view.
 
-## Choix techniques
+**Status: in preparation.** Work starts at step 4 of the roadmap (April 2027): see the [milestones](../../milestones).
 
-Le framework du front web (Angular ou React) n'est pas encore choisi : ce sera la première tâche de l'étape 4, notée dans un ADR. Déjà prévu : une carte vectorielle, la connexion OIDC avec Keycloak, et des échanges avec le serveur en REST et WebSocket.
+## Technical choices
 
-## Licence
+The web front-end framework (Angular or React) is not chosen yet: it is the first task of step 4, recorded in an ADR. Already planned: a vector map, OIDC login with Keycloak, and REST and WebSocket exchanges with the server.
 
-[PolyForm Noncommercial 1.0.0](LICENSE) — Copyright (c) 2026 Bourse Alexandre. Usage commercial interdit.
+## License
+
+[PolyForm Noncommercial 1.0.0](LICENSE) — Copyright (c) 2026 Bourse Alexandre. Commercial use is not allowed.
