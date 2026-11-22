@@ -8,6 +8,8 @@ Here the operator prepares a mission on an S-57 nautical chart (search area, mis
 
 The simulation is a help, not a must: the operator can also create a mission alone, from start to end, and choose the fleet configuration themselves.
 
+Later, the operator will also be able to create a **campaign**: a sequence of several missions, prepared together. Saving a mission and opening a saved mission come first ([#13](https://github.com/gakkel-labs/mission-console/issues/13)). See the [glossary](https://github.com/gakkel-labs/swarm-simulator/blob/main/docs/produit/glossaire.md).
+
 Computation and simulations stay in the Java server ([swarm-simulator](https://github.com/gakkel-labs/swarm-simulator)). Unity stays the 3D view.
 
 **Status: in preparation.** Work starts at step 4 of the roadmap (April 2027): see the [milestones](../../milestones).

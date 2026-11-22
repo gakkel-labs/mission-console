@@ -8,6 +8,8 @@ L'opérateur y prépare une mission sur une carte marine S-57 (zone de recherche
 
 La simulation est une aide, pas une obligation : l'opérateur peut aussi créer une mission seul, de bout en bout, en choisissant lui-même la configuration de flotte.
 
+Plus tard, l'opérateur pourra aussi créer une **campagne** : une suite de plusieurs missions, préparées ensemble. Enregistrer une mission et ouvrir une mission enregistrée viennent d'abord ([#13](https://github.com/gakkel-labs/mission-console/issues/13)). Voir le [glossaire](https://github.com/gakkel-labs/swarm-simulator/blob/main/docs/produit/glossaire.fr.md).
+
 Le calcul et les simulations restent dans le serveur Java ([swarm-simulator](https://github.com/gakkel-labs/swarm-simulator)). Unity reste l'affichage 3D.
 
 **État : en préparation.** Le travail démarre à l'étape 4 de la roadmap (avril 2027) : voir les [jalons](../../milestones).
