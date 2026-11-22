@@ -2,9 +2,11 @@
 
 > English version: [`README.md`](README.md)
 
-Poste opérateur web de [Gakkel](https://github.com/gakkel-labs/swarm-simulator), le simulateur d'essaims de drones sous-marins.
+Le poste de contrôle web de [Gakkel](https://github.com/gakkel-labs/swarm-simulator), un système de missions de drones sous-marins.
 
-L'opérateur y prépare une mission sur une carte marine S-57 (zone, type de mission, type de recherche, météo GO / NO-GO), reçoit les flottes recommandées par le serveur, les modifie et relance une simulation, puis suit la mission en cours (état, avancement, drones, alertes, commandes).
+L'opérateur y prépare une mission sur une carte marine S-57 (zone de recherche, type de mission, schéma de recherche, météo GO / NO-GO), reçoit les configurations de flotte proposées par le serveur, les modifie et relance une simulation, puis suit la mission en cours (état, avancement, drones, alertes, commandes).
+
+La simulation est une aide, pas une obligation : l'opérateur peut aussi créer une mission seul, de bout en bout, en choisissant lui-même la configuration de flotte.
 
 Le calcul et les simulations restent dans le serveur Java ([swarm-simulator](https://github.com/gakkel-labs/swarm-simulator)). Unity reste l'affichage 3D.
 
@@ -12,7 +14,7 @@ Le calcul et les simulations restent dans le serveur Java ([swarm-simulator](htt
 
 ## Choix techniques
 
-Le framework du front web (Angular ou React) n'est pas encore choisi : ce sera la première tâche de l'étape 4, notée dans un ADR. Déjà prévu : une carte vectorielle, la connexion OIDC avec Keycloak, et des échanges avec le serveur en REST et WebSocket.
+Le framework du front web n'est pas encore choisi : ce sera la première tâche de l'étape 4, notée dans un ADR. Déjà prévu : une carte vectorielle, la connexion OIDC avec Keycloak, et des échanges avec le serveur en REST et WebSocket.
 
 ## Licence
 
