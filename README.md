@@ -10,11 +10,11 @@ The simulation is a help, not a must: the operator can also create a mission alo
 
 Computation and simulations stay in the Java server ([swarm-simulator](https://github.com/gakkel-labs/swarm-simulator)). Unity stays the 3D view.
 
-**Status: in preparation.** Work starts at step 4 of the roadmap (April 2027): see the [milestones](../../milestones).
+**Status: in preparation.** Work starts at step 3 of the roadmap, right after step 2: see the [milestones](../../milestones).
 
 ## Technical choices
 
-The web front-end framework is not chosen yet: it is the first task of step 4, recorded in an ADR. Already planned: a vector map, OIDC login with Keycloak, and REST and WebSocket exchanges with the server.
+The web front-end framework is not chosen yet: it is the first task of step 3, recorded in an ADR. Already planned: a vector map, OIDC login with Keycloak, and REST and WebSocket exchanges with the server.
 
 ## License
 
