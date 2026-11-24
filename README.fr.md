@@ -12,11 +12,11 @@ Plus tard, l'opérateur pourra aussi créer une **campagne** : une suite de plus
 
 Le calcul et les simulations restent dans le serveur Java ([swarm-simulator](https://github.com/gakkel-labs/swarm-simulator)). Unity reste l'affichage 3D.
 
-**État : en préparation.** Le travail démarre à l'étape 4 de la roadmap (avril 2027) : voir les [jalons](../../milestones).
+**État : en préparation.** Le travail démarre à l'étape 3 de la roadmap, juste après l'étape 2 : voir les [jalons](../../milestones).
 
 ## Choix techniques
 
-Le framework du front web n'est pas encore choisi : ce sera la première tâche de l'étape 4, notée dans un ADR. Déjà prévu : une carte vectorielle, la connexion OIDC avec Keycloak, et des échanges avec le serveur en REST et WebSocket.
+Le framework du front web n'est pas encore choisi : ce sera la première tâche de l'étape 3, notée dans un ADR. Déjà prévu : une carte vectorielle, la connexion OIDC avec Keycloak, et des échanges avec le serveur en REST et WebSocket.
 
 ## Licence
 
